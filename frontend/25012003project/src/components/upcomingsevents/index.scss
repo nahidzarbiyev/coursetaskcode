@@ -1,0 +1,71 @@
+.upcomings{
+display: flex;
+flex-direction: column;
+    gap: 35px;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    .upcoming{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     width: 100%;
+     height: 180px;
+
+  gap: 35px;
+  
+
+.date{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ffb606;
+    padding: 40px 50px ;
+    gap: 10px;
+    color: #ffb606;
+    .day{
+        display: flex;
+        font-size: 3rem;
+        font-weight: 700;
+    }
+    .month{
+        font-weight: bold;
+        font-weight: 24px;
+    }
+}
+        .image{
+ width: 350px;
+ height: 180px;
+ img{
+    height: 100%;
+ }
+        }
+
+        .descript{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            h3{
+                font-size: 22px;
+                color: rgb(26, 26, 26);
+            }
+            p{
+                font-size: 14px;
+                font-weight: 500;
+
+            }
+            span{
+                line-height: 150%;
+                color: rgb(165, 165, 165);
+                font-size: 14px;
+            }
+        }
+    }
+}
+h2{ text-align: center;
+    margin: 100px 0;
+    font-size: 35px;
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+    font-family: sans-serif;
+
+}

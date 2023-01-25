@@ -1,0 +1,80 @@
+.search{
+    margin: 100px 0;
+    font-family: sans-serif;
+    display: flex;
+    height: 600px;
+    .yellow{
+    box-sizing: border-box;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 180px;
+        background-color: #ffb606;
+        width: 50%;
+        height: 100%;
+        gap: 30px;
+        h1{
+            font-size: 36px;
+            color: #fff;
+            font-weight: 700;
+            line-height: 150%;
+            span{
+                color: #000;
+            }
+        }
+        p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #fff;
+            line-height: 200%;
+            padding: 20px;
+        }
+        button{
+            padding: 13px 40px;
+            color: #fff;
+            background-color: #1a1a1a;
+            border: inherit;
+         
+        }
+    }
+    .form{
+        width: 50%;
+        height: 100%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url("https://preview.colorlib.com/theme/course/images/course_1.jpg");
+        background-size: cover;
+        form{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            h3{
+                font-size: 36px;
+                font-weight: 700;
+                color: #1a1a1a;
+            }
+            input{
+                border:none;
+                outline: none;
+                padding: 13px;
+                width: 100%;
+
+            }
+            button{
+                border:none;
+                outline: none;
+                padding: 13px;
+                width: 105%;
+                background-color: #ffb606;
+                color: #fff;
+            }
+        }        
+    }
+}

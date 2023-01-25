@@ -1,0 +1,26 @@
+footer{
+    font-family: sans-serif;
+    height: 700px;
+    background-color:#1a1a1a ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .footer{
+        padding: 20px;
+        max-width: 1200px;
+        gap: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #fff;
+        border-top: 1px solid #fff;
+        p{
+            color: rgb(165, 165, 165);
+        }
+        .icons  {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}

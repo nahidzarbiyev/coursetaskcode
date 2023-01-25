@@ -1,0 +1,38 @@
+.slider{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    .slick{
+    position: relative;
+
+        width: 100%;
+        .image{
+            width: 100%;
+            img{
+                width: 100vw;
+                height: 100vh;
+            }
+        }
+        span{
+            top: 50%;
+            left: 40%;
+            z-index: 10;
+            position: absolute;
+            text-transform: uppercase;
+            font-size: 4rem;
+            font-weight: 700;
+            color: #fff;
+            span{
+                top: 50%;
+                left: 50%;
+                z-index: 10;
+                position: absolute;
+                display: flex;
+                padding: 20px;
+                background-color:#ffb606 ;
+            }
+        }
+    }
+  
+    
+}

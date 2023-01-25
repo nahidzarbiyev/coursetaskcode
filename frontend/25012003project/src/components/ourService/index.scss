@@ -1,0 +1,38 @@
+.service{
+    font-family: sans-serif;
+margin: 100px 0;
+    h2{ text-align: center;
+        margin: 100px 0;
+        font-size: 35px;
+        color: rgb(26, 26, 26);
+        font-weight: 700;
+    }
+    .ourService{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 30px;
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            img{
+                width: 40px;
+                height: 40px;
+            }
+            p{
+                font-size: 22px;
+                color: rgb(26, 26, 26);
+                font-weight: 700;
+            }
+            span{
+                font-size: 14px;
+                line-height: 200%;
+                color: rgb(165, 165, 165);
+                font-weight: 500;
+    
+            }
+        }
+    }
+}
