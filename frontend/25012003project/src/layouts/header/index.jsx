@@ -14,7 +14,7 @@ const Header = () => {
             <li><Link>ELEMENTS</Link></li>
             <li><Link>NEWS</Link></li>
             <li><Link> CONTACT</Link></li>
-            <li><Link> ADD COURSES</Link></li>
+            <li><Link to={'/add-courses'}> ADD COURSES</Link></li>
         </ul>
         <div className='contact'>
             <div className='image'><img src="https://preview.colorlib.com/theme/course/images/phone-call.svg" alt="" /></div>
